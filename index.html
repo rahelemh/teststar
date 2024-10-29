@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<script>
+    var text="";
+
+
+    console.log(text);
+    for(var i=1;i<=7;i++)
+    {
+        for (var j=0;j<i;j++){
+            text += '*';
+
+        }
+        text += '\n'
+
+
+    }
+    console.log(text)
+    console.log("-------------------------------------------------------------------")
+    var star=1;
+    var space=3;
+    text2 ="";
+    for(var i=0;i<=4;i++)
+    {
+        for(var j=0;j<=space;j++)
+        {
+            text2 +=' ';
+        }
+        for(var m=0;m<star;m++)
+        {
+            text2 +='*';
+        }
+        for(var r=0;r<=space;r++)
+        {
+            text2+=' ';
+        }
+        star+=2;
+        space -=1;
+        text2 +='\n';
+    }
+    console.log(text2);
+console.log("-----------------------------")
+   
+
+
+
+    
+</script>
+<body>
+    
+</body>
+</html>
